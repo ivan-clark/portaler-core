@@ -1,6 +1,9 @@
 {
   "name": "@portaler/core",
   "version": "0.0.1",
+  "engines": {
+    "node": "14.x"
+  },
   "description": "Avalonian Roads Mapping tool for Albion Online",
   "repository": "https://github.com/Portaler-Zone/portaler-core",
   "license": "GNU AGPLv3",
