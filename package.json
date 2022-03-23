@@ -8,6 +8,7 @@
   "repository": "https://github.com/Portaler-Zone/portaler-core",
   "license": "GNU AGPLv3",
   "scripts": {
+    "start": "yarn build:shared && yarn start:api",
     "build:data": "cd shared/data-models && yarn build",
     "build:logger": "cd shared/logger && yarn build",
     "build:utils": "cd shared/universal-utils && yarn build",
